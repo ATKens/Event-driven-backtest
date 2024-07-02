@@ -35,14 +35,6 @@ backtester = Backtester(symbol="AAPL", start_date="2020-01-01", end_date="2020-1
 # 开始回测过程
 backtester.start_backtest()
 
-## 示例
-
-这里是一个快速示例，展示如何为苹果股票 (AAPL) 设置回测：
-
-from datetime import datetime
-import pandas as pd
-from market_data_source import MarketDataSource
-from back_tester import Backtester
 
 # 示例市场数据（通常您会从文件或外部API加载这些数据）
 data = {
